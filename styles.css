@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Hanken;
+    font-weight: 500;
+}
+@font-face {
+    font-family: Hanken;
+    src: url(HankenGrotesk-VariableFont_wght.ttf);
+}
+.main{
+    background-color: rgb(233, 227, 227);
+    width: 650px;
+    height: 450px;
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.57)
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 900px;
+}
+.left{
+    background: rgb(49,44,233);
+background: linear-gradient(0deg, rgba(49,44,233,1) 0%, rgba(103,67,255,1) 100%);
+    width: 300px;
+    height: 450px;
+    border-radius: 25px;
+}
+.result{
+    color: #A99AFA;
+    font-size: 35px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.gr{
+    color: white;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+p{
+    color: #A99AFA;
+    text-align: center;
+    font-size: 18px;
+}
+.sco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 170px;
+    background-color: #452CDF;
+    margin: 20px 0 0 65px;
+    border-radius: 80px;
+    
+}
+.down-l{
+    margin-top: 10px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+}
+.right{
+    background-color: transparent;
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    top: 225px;
+    border-radius: 25px;
+    right: 635px;
+}
+.summary{
+    color: #505266;
+    font-size: 20px;
+    margin: 25px 0 0 50px;
+    transform: translateY(10px);
+}
+.cat{
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    height: 40px;
+    align-items: center;
+    margin: 10px 0 0 50px;
+    transform: translateY(60px)
+}
+.reac p{
+    color: #FF5555;
+}
+.mem p{
+    color: #F9BE50;
+}
+.verb p{
+    color: #3BC5A4;
+}
+.visu p{
+    color: #2C3DD8;
+}
+button{
+    background: linear-gradient(90deg, #441669, transparent) #2196f3;
+    color: white;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    width: 230px;
+    height: 45px;
+    border-radius: 25px;
+    position: absolute;
+    margin: 50px;
+    transform: translateY(50px);
+}
+.desc{
+    transform: translateY(-20px);
+}
+button:hover{
+    background: linear-gradient(90deg, #2196f3, transparent) #441669;
+    transition: background 0.5s  ease-in-out;
+    cursor: pointer;
+}
